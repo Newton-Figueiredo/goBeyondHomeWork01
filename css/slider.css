@@ -1,0 +1,77 @@
+
+
+.card .content .img img{
+    height: 100%;
+    width: 45%;
+    object-fit:cover ;
+    border-radius: 50%;
+}
+
+.nome p {
+    margin-top: 1vh;
+    font-size: 1.3rem;
+    color: #7A7A7A;
+}
+.stars {
+    margin-top: 0.3vh;
+    color: #FFD874;
+}
+
+.de {
+    margin-top: 0.3rem;
+    font-size: 1rem;
+    color: #7A7A7A;
+}
+
+.por {
+    margin-top: 0.3rem;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.ou {
+    margin-top: 0.1rem;
+    font-size: 1rem;
+    color: #7A7A7A;
+}
+
+button.bComprar {
+    width: 20vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00E676;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vh;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.listProduct {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    width: 100%;
+}

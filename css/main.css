@@ -1,0 +1,47 @@
+@import 'header.css';
+@import 'gallery.css';
+@import 'gallery.theme.css';
+@import 'footer.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import 'news.css';
+@import 'slider.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+aside {
+    flex: 1;
+    width: 10rem;
+    height: 5rem;
+    background-color: ffffffff;
+}
+
+.mainContent {
+
+    background-color: #ffffffff;
+}
+
+img.fotoSlider {
+    width: 100%;
+}

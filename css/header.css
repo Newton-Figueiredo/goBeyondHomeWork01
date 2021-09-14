@@ -1,0 +1,129 @@
+header {
+
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    margin-top: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.9rem;
+
+}
+
+li.nav-content {
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+    margin-left: 0.9rem;
+    color: #333333;
+    ;
+
+}
+
+li.nav-content:hover {
+    cursor: pointer;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+
+.searchBox {
+    margin-left: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+input.searchInput {
+    border: none;
+    border-bottom: 1.00051px solid #7A7A7A;
+}
+
+button.searchButtom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #ffffffff;
+}
+
+form.searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.searchImg {
+    width: 14px;
+    height: 13px;
+    margin-left: 2vh;
+}
+
+img.logo-img {
+    width: 6rem;
+    height: 2.2rem;
+
+}
+
+.myAccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vh;
+
+
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vh;
+
+}
+
+button.accountButtom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #ffffffff;
+
+}
+
+button.cartButtom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #ffffffff;
+
+}
+
+p.accountText {
+    margin-left: 1vh;
+    color: #333333;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+}
+
+input.searchInput:focus {
+    outline: none;
+    border: none;
+}
