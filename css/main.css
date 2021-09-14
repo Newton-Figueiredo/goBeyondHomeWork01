@@ -40,8 +40,10 @@ aside {
 .mainContent {
 
     background-color: #ffffffff;
+    width: 100%;
 }
 
 img.fotoSlider {
+    height: 87vh;
     width: 100%;
 }
