@@ -6,6 +6,7 @@
 @import 'news.css';
 @import 'slider.css';
 
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 
 }
 
@@ -47,3 +48,14 @@ img.fotoSlider {
     height: 87vh;
     width: 100%;
 }
+
+span {
+    margin-left: 2vh;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+}
+
